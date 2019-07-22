@@ -11,8 +11,10 @@ namespace SalesWebMVC.Controllers
 {
     public class DepartmentsController : Controller
     {
+        //Abro a "Conexão" com o banco
         private readonly SalesWebMVCContext _context;
 
+        //Inicio a conexão
         public DepartmentsController(SalesWebMVCContext context)
         {
             _context = context;
